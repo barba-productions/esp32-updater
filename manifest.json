@@ -1,10 +1,10 @@
 {
-  "name": "Internal ESP32 Device",
-  "version": "1.0.0",
+  "name": "PorcoDesktop",
+  "version": "4.7",
   "new_install_prompt_erase": true,
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "PorcoDesktop",
       "parts": [
         {
           "path": "firmware.bin",
