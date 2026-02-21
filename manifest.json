@@ -7,16 +7,8 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "PorcoDesktop_V5_1.ino.bootloader.bin",
-          "offset": 4096
-        },
-        {
-          "path": "PorcoDesktop_V5_1.ino.partitions.bin",
-          "offset": 32768
-        },
-        {
-          "path": "PorcoDesktop_V5_1.ino.bin",
-          "offset": 65536
+          "path": "PorcoDesktop_V5_1.ino.merged.bin",
+          "offset": 0
         }
       ]
     }
