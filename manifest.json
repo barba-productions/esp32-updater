@@ -1,6 +1,6 @@
 {
   "name": "PorcoDesktop",
-  "version": "5.0.0",
+  "version": "5.0",
   "new_install_prompt_erase": false,
   "builds": [
     {
