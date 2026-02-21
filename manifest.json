@@ -1,27 +1,26 @@
 {
+  "manifest_version": 1,
   "name": "PorcoDesktop",
   "builds": [
     {
       "chipFamily": "ESP32",
-      "name": "Update Firmware (preserve WiFi & settings)",
-      "version": "5.1 Update",
+      "name": "Update Firmware",
       "parts": [
         {
           "path": "PorcoDesktop_V5_1.ino.bin",
           "offset": 65536
         }
       ]
-    },
-    {
-      "chipFamily": "ESP32",
-      "name": "Factory Install (erase everything)",
-      "version": "5.1 Factory",
-      "parts": [
-        {
-          "path": "PorcoDesktop_V5_1.ino.merged.bin",
-          "offset": 0
-        }
-      ]
     }
-  ]
+  ],
+  "factory": {
+    "chipFamily": "ESP32",
+    "name": "Factory Install (Full Reset)",
+    "parts": [
+      {
+        "path": "PorcoDesktop_V5_1.ino.merged.bin",
+        "offset": 0
+      }
+    ]
+  }
 }
