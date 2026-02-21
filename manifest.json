@@ -1,10 +1,10 @@
 {
-  "manifest_version": 1,
   "name": "PorcoDesktop",
+  "version": "5.1 (17/02/2026)",
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
-      "name": "Update Firmware",
       "parts": [
         {
           "path": "PorcoDesktop_V5_1.ino.bin",
@@ -12,15 +12,5 @@
         }
       ]
     }
-  ],
-  "factory": {
-    "chipFamily": "ESP32",
-    "name": "Factory Install (Full Reset)",
-    "parts": [
-      {
-        "path": "PorcoDesktop_V5_1.ino.merged.bin",
-        "offset": 0
-      }
-    ]
-  }
+  ]
 }
