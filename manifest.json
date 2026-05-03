@@ -1,15 +1,15 @@
 {
   "name": "PorcoDesktop",
-  "version": "5.2 (10-Abr-2026)",
+  "version": "5.4 (3-Mai-2026)",
   "new_install_prompt_erase": false,
   "new_install_skip_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "PorcoDesktop_V5_2.ino.bootloader.bin", "offset": 4096 },
-        { "path": "PorcoDesktop_V5_2.ino.partitions.bin", "offset": 32768 },
-        { "path": "PorcoDesktop_V5_2.ino.bin",            "offset": 65536 }
+        { "path": "PorcoDesktop_V5_4.ino.bootloader.bin", "offset": 4096 },
+        { "path": "PorcoDesktop_V5_4.ino.partitions.bin", "offset": 32768 },
+        { "path": "PorcoDesktop_V5_4.ino.bin",            "offset": 65536 }
       ]
     }
   ]
